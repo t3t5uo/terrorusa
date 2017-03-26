@@ -7,7 +7,7 @@
 @import 'base/root';
 
 html { 
-  background: url("/assets/images/terrorusa.jpg") no-repeat center center fixed; 
+  background: url("/terrorusa/assets/images/terrorusa.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ html {
 
 @font-face {
     font-family: "terrorfont";
-    src: url(/assets/fonts/terrorfont.ttf) format("truetype");
+    src: url(/terrorusa/assets/fonts/terrorfont.ttf) format("truetype");
 }
 .terror { 
     font-family: "terrorfont";
