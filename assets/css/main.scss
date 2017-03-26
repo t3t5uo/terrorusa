@@ -5,3 +5,49 @@
 @import 'vendor/normalize';
 
 @import 'base/root';
+
+html { 
+  background: url("/assets/images/terrorusa.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: "terrorfont";
+    src: url(/assets/fonts/terrorfont.ttf) format("truetype");
+}
+.terror { 
+    font-family: "terrorfont";
+    color: white;
+}
+
+div {
+    width: 50%;
+    height: 50%;        
+    position: absolute;	
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    /* font-size: 4.5vw; */
+    font-size:100px;
+}
+
+p {
+    margin: 0;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+@media only screen and (max-width: 500px) {
+    div {
+        font-size: 50px
+    }
+}
